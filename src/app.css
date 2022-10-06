@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Special+Elite&display=swap');
+
+.outer {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: yellow;
+}
+
+.inner {
+
+  margin-left: 50px;
+  background-color: brown;
+  opacity: 100%
+}
+
+.nav {
+        font-family: "Special Elite", cursive;
+        color: darkolivegreen;
+        font-weight: 500;
+        font-size: 14px;
+       
+          }
+      
+
+
