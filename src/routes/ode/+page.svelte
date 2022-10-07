@@ -1,42 +1,14 @@
 <svelte:head>
 <title>Poem</title>
 </svelte:head>
+<script>
+import '../../app.css';
+</script>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Pacifico&family=Special+Elite&family=Tangerine:wght@400;700&family=Ultra&display=swap');
-                h1 {
-                        font-family: 'Special Elite', cursive;
-margin-left: 10px;
-                }
-h3 {
-font-family: 'Special Elite';
-margin-left: 10px;
-}
-
-                p {
-                        font-family: 'Special Elite', sans-serif;
-font-size: 28px;
-margin-left: 16px;
-                }
-
-                p1 {
-                        font-family: 'Special Elite', sans-serif;
-font-size: 8px;
-margin-left: 16px;
-                }
-
-.outer {
-  width: 1000px;
-  margin: 0 auto;
-  background-color: lightolivegreen;
-}
-
-.inner {
-  margin-left: 10px;
-  background: rgba(145, 249, 192, 0.3); 
-
-}
+<style>                
 .outer-poem {
+  font-family: 'Special Elite';
+  font-size: 28px;
   width: 1000px;
   margin: 0 auto;
   background-color: lightgrey;
@@ -45,17 +17,17 @@ margin-left: 16px;
 
 <div class="outer">
   <div class="inner">
-<h1 class="text-5xl font-bold">
+<h1>
 Book City</h1>
  
-<h3 class="text-2xl">
+<h3>
 LA Times, April 26, 2009</h3>
 </div>
 </div>
 
+<div> 
 <div class="outer-poem">
-
-<p class="text-3xl">
+<p>
 I'm a reader because I grew up in Los Angeles,<br>
 most readerly city I know</p>
 
@@ -94,6 +66,7 @@ havens for mavens
 like the city
 clinging to a strand.
 </p>
+</div>
 </div>
 <div class="outer">
 <div class="inner">

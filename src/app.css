@@ -1,25 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Pacifico&family=Special+Elite&family=Tangerine:wght@400;700&family=Ultra&display=swap');
+                h1 {
+                        font-family: 'Special Elite', cursive;
+                }
+h3 {
+font-family: 'Special Elite';
+margin-left: 10px;
+}
+                p {
+font-family: 'Special Elite', sans-serif;
+font-size: 18px;
+margin-left: 16px;
+}
+
+@media screen and (max-width: 600px){
+  .navbar{
+    background-color:darkred;
+  }
+}
+
+@media screen and (min-width: 600px) {
+    .navbar{
+    background-color:red;
+  }
+}                
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color: white;
+    --background-color: firebrick;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color: #333;
+    --background-color: white;
+  }
+}
+
+html, body {
+  color: var(--color);
+  background-color: var(--background-color);
+}
+
+:root {
+  --main-bg-color: oldlace; 
+}
+
 
 .outer {
+  font-size: 28px;
   width: 1000px;
   margin: 0 auto;
-  background-color: yellow;
+  padding: 10px;
+  background-color: var(--main-bg-color);
 }
 
 .inner {
-
-  margin-left: 50px;
-  background-color: brown;
-  opacity: 100%
+  background-color: rgba(145, 249, 192, 0.3); 
 }
 
-.nav {
-        font-family: "Special Elite", cursive;
-        color: darkolivegreen;
-        font-weight: 500;
-        font-size: 14px;
-       
-          }
-      
 
 

@@ -1,14 +1,33 @@
+<!-- example for https://github.com/sveltejs/kit/discussions/5560#discussioncomment-3163837 -->
+<script>
+	let name = 'world';
+	let theme = 'auto'
+	
+	const waterCss = {
+		auto: 'https://cdn.jsdelivr.net/npm/water.css@2/out/water.css',
+		dark: 'https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css',
+		light: 'https://cdn.jsdelivr.net/npm/water.css@2/out/light.css'
+	}
+</script>
+
+
 <svelte:head>
+<link href={waterCss[theme]} rel="stylesheet" />
 <title>Urban Inversion</title>
 </svelte:head>
-<h1 class="text-4xl font-bold">Urban Inversion, 1994 - 1999</h1>
+<h1>Urban Inversion, 1994 - 1999</h1>
 
+{#each Object.keys(waterCss) as t}
+		<label>
+			<input type='radio' value={t} bind:group={theme} />
+			<span>{t}</span>			
+		</label>
+{/each}
 <style>
                 @import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Pacifico&family=Special+Elite&family=Tangerine:wght@400;700&family=Ultra&display=swap');
                 h1 {
                         font-family: 'Special Elite', cursive;
                 }
-
 
 * {
   box-sizing: border-box;
