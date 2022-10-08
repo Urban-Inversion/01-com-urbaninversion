@@ -4,9 +4,9 @@
 
 <div class="outer">
 	<div class="inner">
-		<h1 class="text-5xl font-bold">Urban Inversion -- For People who Love and Hate Urban Life</h1>
+		<h1>Urban Inversion -- For People who Love and Hate Urban Life</h1>
 		<div>
-			<p class="text-3xl">
+			<p>
 				Urban Inversion was a "mayfly" as described by David Kipen in a poem he wrote in 2009 about
 				the Los Angeles literary landscape of his youth. A mayfly is a short-lived, adult insect.
 			</p>
